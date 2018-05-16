@@ -15,12 +15,10 @@ html, body {
 #main {
 	background-color: #FFC;
 	overflow: auto;
+	clear:both;
 	padding-bottom: 56px; /* must be same height as the footer */
 }  
-#main {
-	clear:both;
-	overflow:auto;
-}
+
 #footer {
 	background-color: #666;
 	margin-top: -56px; /* negative value of footer height */
