@@ -1,0 +1,29 @@
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	height: 100%;
+}
+#wrap {background-color: #C9F;
+	min-height: 100%;
+}
+#header {
+	height:60px;
+	background-color: #999;
+}
+#main {
+	background-color: #FFC;
+	overflow: auto;
+	padding-bottom: 56px; /* must be same height as the footer */
+}  
+#main {
+	clear:both;
+	overflow:auto;
+}
+#footer {
+	background-color: #666;
+	margin-top: -56px; /* negative value of footer height */
+	height: 56px;
+	clear:both;
+}
